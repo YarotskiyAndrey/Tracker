@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="User Name" />
+
+    <ImageView
+        android:id="@+id/ivUserImage"
+        android:layout_width="@dimen/marker_image_size"
+        android:layout_height="@dimen/marker_image_size" />
+
+    <TextView
+        android:id="@+id/tvUserLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="latitude, longitude" />
+</LinearLayout>
